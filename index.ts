@@ -9,8 +9,8 @@ async function runBot() {
 
         // Enter credentials and log in
         await page.waitForSelector('#email');
-        await page.type('#email', '4481273653');
-        await page.type('#pass', 'Getmoney888$');
+        await page.type('#email', '');
+        await page.type('#pass', );
 
         // Click on the login button based on its inner text
         await page.waitForXPath('//button[contains(text(), "Log In")]');
